@@ -1,7 +1,7 @@
 let data = {
   "login": "octocat",
   "id": 1,
-  "avatar_url": "https://github.com/images/error/octocat_happy.gif",
+  "avatar_url": "https://avatars3.githubusercontent.com/u/583231?v=4&s=460",
   "gravatar_id": "",
   "url": "https://api.github.com/users/octocat",
   "html_url": "https://github.com/octocat",
@@ -58,7 +58,7 @@ template = `<p>${data.bio}</p>`
 
 about.innerHTML += template;
 
-template  = `<img  src= ${data.avatar_url}>`
+template  = `<div><img  src= ${data.avatar_url}></div>`
 
 about.innerHTML += template;
 
