@@ -11,6 +11,7 @@ body{
   height: 20vw;
 }
 .lower{
+  background-color: lightgrey;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -20,7 +21,7 @@ body{
 
 .name{
   color: purple;
-  background-image: linear-gradient(blue 15%, grey 30%, orange 10%);
+  background-image: linear-gradient(blue 15%, grey 30%, red 15%, skyblue 10%, orange 10%);
   display: flex;
   justify-content: center;
   width: 40vw;
@@ -35,23 +36,29 @@ body{
   display: flex;
   justify-content: space-around;
   flex-direction: column;
-  width: 20vw;
+  width: 12vw;
   height: 13vw;
 }
-
+}
+.cat{
+  background-color: lightgrey;
+  width: 7vw;
+  height: 13vw;
+}
 .about p{
   /*align-content: flex-start;*/
   /*margin-top: 6vw;*/
   padding-right: 2vw;
-  padding-left: 4vw;
-  width: 4vw;
+  padding-left: 2vw;
+  width: 8vw;
   height: 4vw;
+  margin-bottom: 4vw;
 }
 .about h2{
-  width: 20vw;
-  height: 2vw;
-  margin-top: 5vw;
+  margin-top: 2vw;
+  margin-left: 2vw;
   font-size: 18pt;
+  margin-bottom: 0;
 }
 
 
@@ -86,10 +93,9 @@ body{
   height: 2vw;
 }*/
 img{
-  margin-right: 2vw;
-  margin-bottom: 5vw;
+  margin-top: 4vw;
+  /*margin-right: 2vw;*/
   border-radius: 50%;
-  width: 4vw;
-  height: 4vw;
-  float: right;
+  width: 5vw;
+  height: 5vw;
 }

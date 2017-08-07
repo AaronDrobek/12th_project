@@ -22,7 +22,7 @@ let data = {
   "location": "San Francisco",
   "email": "octocat@github.com",
   "hireable": false,
-  "bio": "There once was...",
+  "bio": "There once was octocat named octocat, super cool stuff",
   "public_repos": 2,
   "public_gists": 1,
   "followers": 20,
@@ -32,9 +32,10 @@ let data = {
 }
 
 
-let name = document.querySelector('.name');
-let bio = document.querySelector('.bio');
+let name  = document.querySelector('.name');
+let bio   = document.querySelector('.bio');
 let about = document.querySelector('.about');
+let cat   = document.querySelector('.cat');
 
 let template;
 
@@ -58,9 +59,9 @@ template = `<p>${data.bio}</p>`
 
 about.innerHTML += template;
 
-template  = `<div><img  src= ${data.avatar_url}></div>`
+template  = `<img  src= ${data.avatar_url}>`
 
-about.innerHTML += template;
+cat.innerHTML += template;
 
 
 
